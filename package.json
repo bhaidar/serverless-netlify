@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "netlify-lambda serve functions",
-    "build": "netlify-lambda build functions",
     "lint": "eslint '**/*.js' --fix",
-    "format": "prettier-eslint '**/*.{js,json}' --write"
+    "format": "prettier-eslint '**/*.{js,json}' --write",
+    "start": "netlify-lambda serve functions",
+    "prebuild": "echo start building functions",
+    "build": "netlify-lambda build functions"
   },
   "keywords": [],
   "author": "Bilal Haidar",
