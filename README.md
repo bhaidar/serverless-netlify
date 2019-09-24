@@ -1,0 +1,1 @@
+Sample cloud function with Netlify
